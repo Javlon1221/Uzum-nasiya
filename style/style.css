@@ -79,3 +79,26 @@ a{
     gap: 20px;
     align-items: center;
 }
+.hero{
+    width: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+}
+
+.hero_btns{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 45%;
+    left: 0;
+    padding: 0 20px;
+}
+.hero_btn{
+    padding: 10px 15px;
+    border-radius:50%;
+    text-align: center;
+    border: none;
+}
+
