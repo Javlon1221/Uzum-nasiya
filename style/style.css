@@ -100,5 +100,8 @@ a{
     border-radius:50%;
     text-align: center;
     border: none;
+    background-color:#36364040;
+    color: white;
+    font-weight: 600;
 }
 
