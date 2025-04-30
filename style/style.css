@@ -16,6 +16,8 @@ a{
     display: flex;
     align-items: center;
     gap: 5px;
+    color: var(--hj--py);
+    align-items:flex-start;
 }
 
 .img{
@@ -121,3 +123,18 @@ a{
     font-weight: 600;
     cursor: pointer;
   }
+
+  .logins{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 50px    ;
+  }
+  .about{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    gap:15px
+}
